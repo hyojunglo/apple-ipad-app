@@ -63,3 +63,19 @@ function hideSearch() {
   searchDelayEls.reverse();
   searchInputEl.value = "";
 }
+
+// 요소의 가시성 관찰
+const io = new IntersectionObserver(function (entries) {
+  entries.forEach(function (entry) {
+    if (!entry.isIntersecting) {
+      return;
+    }
+    entry.target.classList.add("show");
+  });
+});
+const infoEls = document.querySelectorAll(".info");
+infoEls.forEach(function (el) {
+  io.observe(el);
+});
+// entries = 매개변수는 배열 데이터이다. 그래서 forEach 를 사용한다.
+// entry = 관찰하는 대상들
