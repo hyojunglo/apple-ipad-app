@@ -988,6 +988,33 @@ nav .menu li.active:hover a {
 
 /* AR */
 .ar {
+  background-color: var(--color-section);
+  padding: 20px 20px 0; /* 상 중 하 */
+}
+.ar .whitebox {
+  padding-bottom: 0;
+}
+.ar .inner {
+  display: flex;
+  justify-content: space-between;
+}
+.ar .inner > div {
+  max-width: 410px;
+  margin-top: 60px;
+}
+
+/* Environment */
+.environment {
+  background-color: var(--color-section);
+  text-align: center;
+  padding: 20px 20px 0;
+}
+.environment .icon {
+  margin-left: auto;
+  margin-right: auto;
+}
+.environment h1 {
+  color: #03a10e;
 }
 
 @keyframes sprite-icon {
