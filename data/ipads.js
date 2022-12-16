@@ -1,34 +1,49 @@
 export default [
   {
-    thumbnail: './images/compare_ipad_pro.png',
-    colors: ['#68696D', '#E2E3E5'],
-    name: 'iPad Pro',
-    tagline: '궁극의 iPad란<br />이런 것.',
+    thumbnail: "./images/compare_ipad_pro.png",
+    colors: ["#68696D", "#E2E3E5"],
+    product: "New",
+    name: "iPad Pro",
+    tagline: "최첨단 기술이 구현하는<br> 궁극의 iPad 경험.",
     price: 999000,
-    url: '/ipad-pro/'
+    url: "/ipad-pro/",
   },
   {
-    thumbnail: './images/compare_ipad_air.png',
-    colors: ['#68696D', '#E2E3E5', '#E8D2CE', '#B9B8D1', '#88AEBF'],
-    name: 'iPad Air',
-    tagline: '강력하다. 다채롭다.<br />경이롭다.',
+    thumbnail: "./images/compare_ipad_air.png",
+    colors: ["#68696D", "#E2E3E5", "#E8D2CE", "#B9B8D1", "#88AEBF"],
+    product: "",
+    name: "iPad Air",
+    tagline: "얇고 가벼운 디자인.<br/> 결코 가볍지 않은 성능.",
     price: 779000,
-    url: '/ipad-air/'
+    url: "/ipad-air/",
   },
   {
-    thumbnail: './images/compare_ipad_10_2.png',
-    colors: ['#68696D', '#E2E3E5'],
-    name: 'iPad',
-    tagline: '만족스러운 성능.<br />기분 좋은 가격.',
+    thumbnail: "./images/compare_ipad_10_9.png",
+    colors: ["#e3e4e5", "#6480a3", "#de6274", "#f0d95b"],
+    product: "New",
+    name: "iPad",
+    generation: "10세대",
+    tagline: "다양한 일상 작업에 맞는<br/> 완전히 새롭고, 컬러풀한 iPad.",
     price: 449000,
-    url: '/ipad-10.2/'
+    url: "/ipad-10.9/",
   },
   {
-    thumbnail: './images/compare_ipad_mini.png',
-    colors: ['#68696D', '#E2E3E5', '#E8D2CE', '#B9B8D1'],
-    name: 'iPad Pro',
-    tagline: '메가급 성능.<br />크기만 미니.',
+    thumbnail: "./images/compare_ipad_10_2.png",
+    colors: ["#E2E3E5", "#68696D"],
+    product: "",
+    name: "iPad",
+    generation: "9세대",
+    tagline: "가장 핵심적 요소들을 담은<br /> 가장 부담 없는 iPad.",
+    price: 449000,
+    url: "/ipad-10.2/",
+  },
+  {
+    thumbnail: "./images/compare_ipad_mini.png",
+    colors: ["#68696D", "#E2E3E5", "#E8D2CE", "#B9B8D1"],
+    product: "",
+    name: "iPad mini",
+    tagline: "한 손에 쏙 들어오는<br> 손색없는 iPad 경험.",
     price: 649000,
-    url: '/ipad-mini/'
-  }
-]
+    url: "/ipad-mini/",
+  },
+];
