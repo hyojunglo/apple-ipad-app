@@ -1057,6 +1057,7 @@ nav .menu li.active:hover a {
   width: 190px;
   padding-bottom: 34px;
   border-bottom: 1px solid var(--color-border);
+  margin-left: 20px;
   position: relative;
 }
 .compare .item .thumbnail {
