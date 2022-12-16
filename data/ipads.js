@@ -2,7 +2,7 @@ export default [
   {
     thumbnail: "./images/compare_ipad_pro.png",
     colors: ["#68696D", "#E2E3E5"],
-    product: "New",
+    // product: "New",
     name: "iPad Pro",
     tagline: "최첨단 기술이 구현하는<br> 궁극의 iPad 경험.",
     price: 999000,
@@ -11,7 +11,7 @@ export default [
   {
     thumbnail: "./images/compare_ipad_air.png",
     colors: ["#68696D", "#E2E3E5", "#E8D2CE", "#B9B8D1", "#88AEBF"],
-    product: "",
+    // product: "",
     name: "iPad Air",
     tagline: "얇고 가벼운 디자인.<br/> 결코 가볍지 않은 성능.",
     price: 779000,
@@ -20,7 +20,7 @@ export default [
   {
     thumbnail: "./images/compare_ipad_10_9.png",
     colors: ["#e3e4e5", "#6480a3", "#de6274", "#f0d95b"],
-    product: "New",
+    // product: "New",
     name: "iPad",
     generation: "10세대",
     tagline: "다양한 일상 작업에 맞는<br/> 완전히 새롭고, 컬러풀한 iPad.",
@@ -30,7 +30,7 @@ export default [
   {
     thumbnail: "./images/compare_ipad_10_2.png",
     colors: ["#E2E3E5", "#68696D"],
-    product: "",
+    // product: "",
     name: "iPad",
     generation: "9세대",
     tagline: "가장 핵심적 요소들을 담은<br /> 가장 부담 없는 iPad.",
@@ -40,7 +40,7 @@ export default [
   {
     thumbnail: "./images/compare_ipad_mini.png",
     colors: ["#68696D", "#E2E3E5", "#E8D2CE", "#B9B8D1"],
-    product: "",
+    // product: "",
     name: "iPad mini",
     tagline: "한 손에 쏙 들어오는<br> 손색없는 iPad 경험.",
     price: 649000,
